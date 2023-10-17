@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Understext App</string>
+    <string name="desc_app">Analysis Your Text To Find More Information With Understext App</string>
+    <string name="desc2_app">Advanced of natural language usage to systematically processing identify and extract information from a text</string>
+    <string name="get_started">Get Started</string>
+    <string name="text_summarization">Text Summarization</string>
+    <string name="sentiment_analysis">Sentiment Analysis</string>
+    <string name="language_detection">Language Detection</string>
+    <string name="entity_recognition">Entity Recognition</string>
+    <string name="article_extraction">Article Extraction</string>
+    <string name="onboard">Onboard</string>
+    <string name="home">Home</string>
+</resources>
