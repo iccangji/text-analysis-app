@@ -2,11 +2,11 @@ package com.iccangji.understextapp
 
 import android.app.Application
 import android.content.Context
-import androidx.compose.runtime.Composable
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
-import com.iccangji.understextapp.data.UserPreferencesRepository
+import com.iccangji.understextapp.data.AppContainer
+import com.iccangji.understextapp.data.DefaultAppContainer
 
 private const val SHOW_ONBOARD_PREFERENCE_NAME = "show_onboard_preferences"
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(
@@ -14,10 +14,10 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(
 )
 
 class UnderstextApplication: Application(){
-    lateinit var userPreferencesRepository: UserPreferencesRepository
+    lateinit var container: AppContainer
 
     override fun onCreate() {
         super.onCreate()
-        userPreferencesRepository = UserPreferencesRepository(dataStore)
+        container = DefaultAppContainer(dataStore)
     }
 }

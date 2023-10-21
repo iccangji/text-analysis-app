@@ -10,4 +10,23 @@
     <string name="article_extraction">Article Extraction</string>
     <string name="onboard">Onboard</string>
     <string name="home">Home</string>
+    <string name="language">Language</string>
+    <string name="text">Text</string>
+    <string name="analyze">Analyze</string>
+    <string name="english">English</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="neutral">Neutral</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_text">Please insert text to analyze</string>
+    <string name="result">Result</string>
+    <string name="summary_level">Summary level</string>
+    <string name="copy_text">Copy text</string>
+    <string name="summarized_text">Summarized text</string>
+    <string name="up_to_percentage">Up to %1$d%%</string>
+    <string name="desc_sentiment_analysis">Analyze text for sentiment information</string>
+    <string name="desc_text_summarization">Summarize large text by retaining important information</string>
+    <string name="detected_language">Detected Language</string>
+    <string name="too_short_to_summarize">Text is too short to summarize</string>
+    <string name="identify_the_language_of_text">Identify the language of text</string>
 </resources>

@@ -12,6 +12,10 @@ val InterTight = FontFamily(
     Font(R.font.inter_tight_regular)
 )
 
+val InterTightBold = FontFamily(
+    Font(R.font.inter_tight_bold)
+)
+
 val Gabarito = FontFamily(
     Font(R.font.gabarito_bold)
 )
@@ -52,9 +56,9 @@ val Typography = Typography(
         letterSpacing = 0.sp
     ),
     labelMedium = TextStyle(
-        fontFamily = Gabarito,
+        fontFamily = InterTightBold,
         fontWeight = FontWeight.Bold,
-        fontSize = 22.sp,
+        fontSize = 18.sp,
         letterSpacing = 0.sp
     ),
     /* Other default text styles to override
